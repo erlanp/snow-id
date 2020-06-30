@@ -23,7 +23,7 @@ import com.heyw.ww.my.Snowflake2;
 public class WwApplication {
 
 	public static void main(String[] args) {
-		// SpringApplication.run(WwApplication.class, args);
+		SpringApplication.run(WwApplication.class, args);
 		try {
 			ServerSocket server = new ServerSocket(5555);
 			while (true) {
